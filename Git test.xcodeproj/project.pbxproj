@@ -21,6 +21,7 @@
 		D95F2DB618E112B000552837 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95F2D9818E112AF00552837 /* UIKit.framework */; };
 		D95F2DBE18E112B000552837 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D95F2DBC18E112B000552837 /* InfoPlist.strings */; };
 		D95F2DC018E112B000552837 /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D95F2DBF18E112B000552837 /* Git_testTests.m */; };
+		D95F2DCB18E1178400552837 /* CPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D95F2DCA18E1178400552837 /* CPTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D95F2DBB18E112B000552837 /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		D95F2DBD18E112B000552837 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D95F2DBF18E112B000552837 /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		D95F2DC918E1178400552837 /* CPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTest.h; sourceTree = "<group>"; };
+		D95F2DCA18E1178400552837 /* CPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		D95F2D9A18E112AF00552837 /* Git test */ = {
 			isa = PBXGroup;
 			children = (
+				D95F2DC918E1178400552837 /* CPTest.h */,
+				D95F2DCA18E1178400552837 /* CPTest.m */,
 				D95F2DA318E112AF00552837 /* CPAppDelegate.h */,
 				D95F2DA418E112AF00552837 /* CPAppDelegate.m */,
 				D95F2DA618E112AF00552837 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 			files = (
 				D95F2DA118E112AF00552837 /* main.m in Sources */,
 				D95F2DA518E112AF00552837 /* CPAppDelegate.m in Sources */,
+				D95F2DCB18E1178400552837 /* CPTest.m in Sources */,
 				D95F2DAB18E112B000552837 /* CPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
